@@ -1,0 +1,19 @@
+$(function(){
+	$('#tel').focus(function(){
+		$('#xiaozi').show();
+	})
+	$('#tel').blur(function(){
+		$('#xiaozi').hide();
+	})
+	$('.dxzm li a').click(function(){
+		$(this).addClass('aselect').siblings().removeClass('aselect')
+	})
+	$('#zhongguo').toggle(function(){
+		$('#xxk').show();
+	},function(){
+		$('#xxk').hide();
+	})
+	$('.xxcc').click(function(){
+		$('#xiaozi').text('请输入号码')	
+	})
+})

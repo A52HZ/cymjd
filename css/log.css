@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+body,html{
+	background: white;
+}
+.clearfix{
+	zoom:1;
+}
+.claerfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.left{
+	 float:left;
+	/*position:relative;*/
+}
+
+/*.left .left-A{
+	position:relative;
+}*/
+.right{
+	float: right;
+}
+.w{
+	width: 100%;
+}
+.jz{
+	margin: 0 auto;
+}
+.head{
+	width: 1351px;
+	height: 119px;
+}
+.head-1 img{
+	margin-left: 214px;
+	margin-top: 16px;
+}
+.head-1 .head-1-text{
+	margin-top: 34px;
+	font-size: 22px;
+	margin-left: 26px;
+	color: #3B3B3B;
+}
+.head-1-text2{
+	margin-top: 55px;
+	margin-right: 180px;
+}
+.head-1-text2 img{
+	margin-top: 3px;
+	margin-right: 2px;
+}
+.head-1-text2 a{
+	color: #999999;
+}
+.head-2{
+	width: 1351px;
+	height: 39px;
+	background:#FFF8F0;
+	line-height: 39px;
+	text-align: center;
+	color: #999999;
+}
+.head-2 img{
+	margin-left: 280px;
+	margin-top: 11px;
+	margin-right: 5px;
+}
+.body{
+	width: 1349px;
+	height: 495px;
+	position: relative;
+}
+.body .wani{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+.waini img{
+	width: 100%;
+	height: 100%;
+}
+.body .ewm{
+	position: absolute;
+	width: 346px;
+	height: 438px;
+	background: white;
+	right: 179px;
+	top: 9px;
+	z-index: 2;
+}
+.ts{
+	width: 346px;
+	height: 39px;
+	background: #FFF8F0;
+	line-height: 39px;
+}
+.ts img{
+	margin-top: 11px;
+	margin-left: 10px;
+
+}
+.ts-text{
+	margin-left: 30px;
+	color: #999999;
+	font-size: 13px;
+}
+.select{
+	margin-top: 19px;
+	margin-left: 49px;
+	position: relative;
+}
+.smdl{
+	font-size: 19px;
+	font-family: 微软雅黑;
+	position: relative;
+}
+.zhdl{
+	font-size: 19px;
+	font-family: 微软雅黑;
+	margin-left: 102px;
+}
+.selected{
+	color: #E4393C;
+}
+.smdl:hover{
+	color: #E4393C;
+}
+.zhdl:hover{
+	color: #E4393C;
+}
+.xxk{
+	width: 345px;
+	height: 283px;
+	position: relative;
+}
+.jdm{
+	position: absolute;
+	left: 84px;
+	top: 40px;
+}
+.sas{
+	position: absolute;
+	top: 40px;
+	left: 203px;
+	display: none;
+}
+.gg{
+	position: absolute;
+	left: 20px;
+	top: 35px;
+}
+.username{
+	position: absolute;
+	width: 266px;
+	height: 36px;
+	height: 35px;
+}
+.bb{
+	position: absolute;
+	left: 20px;
+	top: 93px;
+}
+.password{
+	position: absolute;
+	width: 266px;
+	height: 36px;
+}
+.hide{
+	display: none;
+}
+.xxx{
+	position: absolute;
+	top: 180px;
+	left: 278px;
+	color: #888;
+}
+.ddll{
+	position: absolute;
+	top: 250px;
+	left:20px;
+	width: 303px;
+	height: 32px;
+	background: #E4393C;
+	text-align: center;
+	line-height: 32px;
+	font-size: 20px;
+	color: white;
+}
+.dddd{
+	position: absolute;
+	margin-top: 220px;
+	margin-left: 100px;
+}
+.dddd a{
+	color: red;
+}
+.zczh{
+	margin-left: 20px;
+}
+.zczh li{
+	margin: 0 5px;
+}
+.zjzc{
+	padding-left: 140px;2
+}
+.foot{
+	width: 1349px;
+	height: 106px;
+	background: white;
+}
+.foot-ul{
+	margin-left: 320px;
+	width: 100%;
+}
+.foot-ul li span{
+	padding: 0 10px;
+}
+.footer{
+	margin-left: 540px;
+	margin-top: 20px;
+}
